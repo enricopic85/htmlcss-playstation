@@ -11,8 +11,11 @@
     background-image: url(../img/jumbo-bg.png);
     background-repeat: no-repeat;
     background-size: 100% auto;
-    height: 600px;
+    /* height: 600px; */
 }
 .returnal img{
     width: 70%;
+}
+.mgt{
+    margin-top: 190px;
 }
