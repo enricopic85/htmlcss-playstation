@@ -33,5 +33,12 @@
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 600px;
+    height: 550px;
+}
+.new_release img{
+    width: 100%;
+    border-radius: 10px;
+}
+.product img{
+    width: 100%;
 }
