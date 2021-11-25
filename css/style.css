@@ -57,3 +57,7 @@
 .bg_blue{
     background-color: rgb(6, 6, 48);
 }
+
+.social img{
+    width: 100%;
+}
