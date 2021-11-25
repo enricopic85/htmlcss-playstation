@@ -10,12 +10,28 @@
 .bkg_img{
     background-image: url(../img/jumbo-bg.png);
     background-repeat: no-repeat;
-    background-size: 100% auto;
-    /* height: 600px; */
+    background-size: cover;
+    height: 600px;
 }
 .returnal img{
     width: 70%;
 }
 .mgt{
     margin-top: 190px;
+}
+.title img{
+    width: 100%;
+    border-radius: 10px;
+}
+.img_play img{
+    width: 100%;
+}
+.device img{
+    width: 100%;
+}
+.bkg_img2{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
 }
