@@ -9,12 +9,12 @@
 }
 .bkg_img{
     background-image: url(../img/jumbo-bg.png);
-    background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
+    min-width: 100%;
 }
 .returnal img{
-    max-width: 70%;
+    max-width: 300px;
 }
 .mgt{
     margin-top: 190px;
@@ -28,7 +28,7 @@
     width: 100%;
 }
 .device img{
-    width: 100%;
+    width: 70%;
 }
 .bkg_img2{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
@@ -44,7 +44,7 @@
     width: 100%;
 }
 .ps_plus img{
-    width: 50%;
+    width: 60%;
 }
 .bg_cap{
     background-color: burlywood;
@@ -89,11 +89,6 @@ button.animation:hover{
     outline: rgba(220,53,69,255) solid 1px;
     
 }
-.animation_border{
-    border: 1px solid black;
-    padding: 5px;
-    border-radius: 20px;
-}
 .animation_bor{
     border: 1px solid black;
 }
@@ -103,5 +98,46 @@ button.animation:hover{
     transition: 1 s;
 }
 .title:hover{
-    margin-top: -5px;
+   margin-top: -5px;
+   /* transition: 1s; */
+}
+.container_sony{
+    width: 100%;
+}
+
+.title a img:hover{
+border: 2px solid white;
+outline: blue solid 1px;
+border-radius: 10px;
+transition: 0.2s;
+} 
+
+button.animation_dark:hover{
+    border: 1px solid white;
+    outline: black solid 1px;
+}
+
+.border_blue{
+    border-bottom: 3px solid blue;
+}
+.opac{
+    opacity: 0.8;
+}
+.opac:hover{
+    opacity: 1;
+    
+}
+button.animation_btn_blue:hover{
+    border: 1px solid white;
+    outline: blue solid 1px;
+}
+.dropdown-toggle::after{
+   display: none;
+}
+.fa-angle-down{
+    vertical-align: middle;
+}
+button.button_explore:hover{
+    border: 1px solid black;
+    outline: 1px solid white;
 }
