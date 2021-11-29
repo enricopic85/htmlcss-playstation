@@ -1,3 +1,5 @@
+/* navbar */
+
 .logo_sony{
     width: 50px;
     height: 50px;
@@ -10,19 +12,38 @@
 .bkg_img{
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
+    background-position: center center;
     height: 600px;
-    min-width: 100%;
+    width: 100%;
+    height: 100%;
 }
 .returnal img{
     max-width: 300px;
 }
 .mgt{
-    margin-top: 190px;
+    margin-top: 160px;
 }
-.title img{
-    width: 100%;
-    border-radius: 10px;
+
+.navbar-light .navbar-nav .nav-link.active:hover{
+    color: blue;
+    transition: 1 s;
 }
+.lens img{
+    width: 50px;
+    height: 50px;
+}
+button.animation_dark:hover{
+    border: 1px solid white;
+    outline: black solid 1px;
+}
+.dropdown-toggle::after{
+    display: none;
+ }
+ .fa-angle-down{
+     vertical-align: middle;
+ }
+
+/* maggiori informazioni */
 
 .img_play img{
     width: 100%;
@@ -30,19 +51,34 @@
 .device img{
     width: 70%;
 }
+li:hover a.animation_blue{
+    color: blue;
+}
+
+/* takes two */
+
 .bkg_img2{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
-    background-repeat: no-repeat;
+    background-position: center center;
     background-size: cover;
     height: 600px;
 }
+
+/* nuove uscite */
+
 .new_release img{
     width: 100%;
     border-radius: 10px;
 }
+
+/* scopri di più */
+
 .product img{
     width: 100%;
 }
+
+/* ps plus */
+
 .ps_plus img{
     width: 60%;
 }
@@ -52,23 +88,36 @@
 .soul img{
     width: 100%;
 }
+
+/* offerte */
+
 .offerte img{
     width: 100%;
 }
+
+/* avengers */
+
 .bg_blue-dark{
     background-color: rgb(6, 6, 48);
 }
+button.button_explore:hover{
+    border: 1px solid black;
+    outline: 1px solid white;
+}
+
+
+/* social */
 
 .social img{
     width: 100%;
 }
-.lens img{
-    width: 50px;
-    height: 50px;
-}
+
 .bg_blue{
     background-color: blue;
 }
+
+/* footer */
+
 .sony_logo img{
     width: 110px;
     height: 110px;
@@ -81,43 +130,37 @@
 .ps_logo img{
     width: 120px;
 }
- li:hover a.animation_blue{
-    color: blue;
-}
+ 
 button.animation:hover{
     border: 1px solid black;
     outline: rgba(220,53,69,255) solid 1px;
     
 }
-.animation_bor{
-    border: 1px solid black;
-}
 
-.navbar-light .navbar-nav .nav-link.active:hover{
-    color: blue;
-    transition: 1 s;
-}
-.title:hover{
-   margin-top: -5px;
-   /* transition: 1s; */
-}
-.container_sony{
+/* lista giochi piccola */
+
+.game_cards a img{
     width: 100%;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    padding: 3px;
+    position: relative;
+    top: 0;
+    transition: all 0.4s ease-in-out;
 }
 
-.title a img:hover{
-border: 2px solid white;
-outline: blue solid 1px;
-border-radius: 10px;
-transition: 0.2s;
+.game_cards a:hover img{
+    border-color: blue;
+    top: -10px;
+
 } 
 
-button.animation_dark:hover{
-    border: 1px solid white;
-    outline: black solid 1px;
-}
+/* accessori */
 
 .border_blue{
+    border-bottom: 3px solid white;
+}
+.border_blue:hover{
     border-bottom: 3px solid blue;
 }
 .opac{
@@ -127,17 +170,11 @@ button.animation_dark:hover{
     opacity: 1;
     
 }
+
+/* maggiori informazioni */
+
 button.animation_btn_blue:hover{
     border: 1px solid white;
     outline: blue solid 1px;
 }
-.dropdown-toggle::after{
-   display: none;
-}
-.fa-angle-down{
-    vertical-align: middle;
-}
-button.button_explore:hover{
-    border: 1px solid black;
-    outline: 1px solid white;
-}
+
