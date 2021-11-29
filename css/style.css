@@ -178,4 +178,9 @@ button.animation_btn_blue:hover{
     border: 1px solid white;
     outline: blue solid 1px;
 }
-
+.dropdown-menu{
+    width: 100%;
+}
+.no_rel.nav-link{
+    position: static;
+}
