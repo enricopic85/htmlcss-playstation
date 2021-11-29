@@ -42,7 +42,15 @@ button.animation_dark:hover{
  .fa-angle-down{
      vertical-align: middle;
  }
-
+ .ps6.dropdown-menu{
+    width: 100%;
+    margin-top: -1px;
+    border: 0;
+    border-radius: 0;
+}
+.dropdown.nav-item{
+    position: static;
+}
 
 /* maggiori informazioni */
 
@@ -177,10 +185,4 @@ button.animation:hover{
 button.animation_btn_blue:hover{
     border: 1px solid white;
     outline: blue solid 1px;
-}
-.dropdown-menu{
-    width: 100%;
-}
-.no_rel.nav-link{
-    position: static;
 }
