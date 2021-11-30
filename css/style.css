@@ -7,8 +7,8 @@
 .playstation-button:hover {
     box-shadow: inset 0px 0px 0px 2px #000;
 }
-
- .height{
+/* classe utilizzata all'interno di scopri di più per pareggiare l'altezza dei 3 pulsanti quando si visualizza da tablet */
+ .height {
     height: 72px;
 } 
 /* navbar */
